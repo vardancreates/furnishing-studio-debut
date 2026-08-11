@@ -268,14 +268,14 @@ function Index() {
       Let&apos;s finish <span className="font-light italic text-brass">the room.</span>
     </h2>
     <div className="mt-10 flex flex-wrap gap-4">
-      
+      <a
         href="tel:+919115104010"
         data-magnetic
         className="magnetic inline-flex min-h-[60px] items-center rounded-full bg-brass px-10 text-ink"
       >
         <span className="label-mono">Call the store</span>
       </a>
-      
+      <a
         href="https://wa.me/919115104010"
         target="_blank"
         rel="noopener noreferrer"
@@ -284,7 +284,7 @@ function Index() {
       >
         <span className="label-mono">WhatsApp us</span>
       </a>
-      
+      <a
         href="https://maps.google.com/?q=The+Furnishing+Store+Nakodar+Road+Jalandhar"
         target="_blank"
         rel="noopener noreferrer"
@@ -313,7 +313,7 @@ function Index() {
       </div>
       <div>
         <p className="label-mono text-ivory/50">Phone</p>
-        
+        <a
           href="tel:+919115104010"
           className="mt-3 inline-flex min-h-[44px] items-center text-ivory/85 underline decoration-brass/60 underline-offset-4"
         >
