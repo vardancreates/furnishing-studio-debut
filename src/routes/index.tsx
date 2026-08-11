@@ -293,6 +293,15 @@ function Index() {
       >
         <span className="label-mono">Get directions</span>
       </a>
+      <a
+        href="https://instagram.com/singlas.furnishing"
+        target="_blank"
+        rel="noopener noreferrer"
+        data-magnetic
+        className="magnetic inline-flex min-h-[60px] items-center rounded-full border border-ivory/30 px-10 text-ivory"
+      >
+        <span className="label-mono">Instagram</span>
+      </a>
     </div>
 
     <address className="mt-14 grid gap-8 not-italic sm:grid-cols-2">
