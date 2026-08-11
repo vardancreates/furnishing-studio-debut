@@ -285,7 +285,7 @@ function Index() {
         <span className="label-mono">WhatsApp us</span>
       </a>
       <a
-        href="https://maps.app.goo.gl/ZmfZxkmATmhA3w8q7"
+        href="https://www.google.com/maps/place/The+Furnishing+Store+(Singla's)/@31.3025016,75.5623576,17z/data=!3m1!4b1!4m6!3m5!1s0x391a5b10d1e8e593:0x9ee951308012eb0c!8m2!3d31.3025016!4d75.5623576!16s%2Fg%2F11f7q_zdll?entry=ttu&g_ep=EgoyMDI2MDgwNS4xIKXMDSoASAFQAw%3D%3D"
         target="_blank"
         rel="noopener noreferrer"
         data-magnetic
