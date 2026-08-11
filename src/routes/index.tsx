@@ -121,7 +121,7 @@ function Index() {
       {/* HERO */}
       <section className="relative flex min-h-[100svh] flex-col justify-between overflow-hidden px-5 pt-7 sm:px-10">
         <header className="grid grid-cols-[minmax(0,1fr)_auto] items-center gap-4">
-          <p className="min-w-0 truncate font-sans text-sm font-medium uppercase tracking-[0.15em] text-ivory/80 sm:text-base">
+          <p className="min-w-0 truncate font-display text-[clamp(1.25rem,5.5vw,2rem)] font-semibold uppercase tracking-[0.08em] text-ivory sm:tracking-[0.12em]">
             The Furnishing Store · Singla&apos;s
           </p>
           <p className="label-mono shrink-0 text-ivory/50">Jalandhar</p>
