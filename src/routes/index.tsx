@@ -121,7 +121,7 @@ function Index() {
       {/* HERO */}
       <section className="relative flex min-h-[100svh] flex-col justify-between overflow-hidden px-5 pt-7 sm:px-10">
         <header className="grid grid-cols-[minmax(0,1fr)_auto] items-center gap-4">
-          <p className="label-mono min-w-0 truncate text-ivory/70">
+          <p className="min-w-0 truncate font-sans text-sm font-medium uppercase tracking-[0.15em] text-ivory/80 sm:text-base">
             The Furnishing Store · Singla&apos;s
           </p>
           <p className="label-mono shrink-0 text-ivory/50">Jalandhar</p>
@@ -203,13 +203,12 @@ function Index() {
           <div className="flex flex-col justify-center">
             <p className="label-mono text-brass">On Nakodar Road</p>
             <blockquote className="mt-6 text-[clamp(1.6rem,6vw,2.75rem)] font-display font-light italic leading-tight">
-              &ldquo;People send their sisters and their neighbours here. That is the whole
-              business.&rdquo;
+              &ldquo;We don&apos;t sell curtains off a shelf. We measure the window, then we make the curtain.&rdquo;
             </blockquote>
             <p className="mt-8 max-w-[46ch] text-ivory/70">
-              Families come back for the second house, then for their children&apos;s. We keep the
-              measurements, remember which fabric went into which room, and stitch the next set to
-              match. Nothing leaves the shop until it hangs the way it should.
+              Every order starts with a visit — we measure the window, match the fabric to the room&apos;s
+              light, and stitch it ourselves. Wallpaper gets matched pattern-to-pattern before it goes
+              up. Nothing here comes ready-made.
             </p>
           </div>
         </div>
@@ -266,15 +265,34 @@ function Index() {
       <footer className="relative z-10 bg-walnut px-5 py-24 sm:px-10">
         <div className="reveal">
           <h2 className="max-w-[14ch] text-[clamp(2.5rem,10vw,5.5rem)]">
-            Bring the <span className="font-light italic text-brass">measurements.</span>
+            Let&apos;s finish <span className="font-light italic text-brass">the room.</span>
           </h2>
-          <a
+          <div className="mt-10 flex flex-wrap gap-4">
             href="tel:+919115104010"
             data-magnetic
-            className="magnetic mt-10 inline-flex min-h-[60px] items-center rounded-full bg-brass px-10 text-ink"
-          >
-            <span className="label-mono">Call the store</span>
-          </a>
+            className="magnetic inline-flex min-h-[60px] items-center rounded-full bg-brass px-10 text-ink"
+  >
+    <span className="label-mono">Call the store</span>
+  </a>
+  
+    href="https://wa.me/919115104010"
+    target="_blank"
+    rel="noopener noreferrer"
+    data-magnetic
+    className="magnetic inline-flex min-h-[60px] items-center rounded-full border border-ivory/30 px-10 text-ivory"
+  >
+    <span className="label-mono">WhatsApp us</span>
+  </a>
+  
+    href="https://maps.google.com/?q=The+Furnishing+Store+Nakodar+Road+Jalandhar"
+    target="_blank"
+    rel="noopener noreferrer"
+    data-magnetic
+    className="magnetic inline-flex min-h-[60px] items-center rounded-full border border-ivory/30 px-10 text-ivory"
+  >
+    <span className="label-mono">Get directions</span>
+  </a>
+</div>
 
           <address className="mt-14 grid gap-8 not-italic sm:grid-cols-2">
             <div>
