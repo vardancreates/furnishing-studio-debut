@@ -262,62 +262,62 @@ function Index() {
       </div>
 
       {/* FOOTER CTA */}
-      <footer className="relative z-10 bg-walnut px-5 py-24 sm:px-10">
-        <div className="reveal">
-          <h2 className="max-w-[14ch] text-[clamp(2.5rem,10vw,5.5rem)]">
-            Let&apos;s finish <span className="font-light italic text-brass">the room.</span>
-          </h2>
-          <div className="mt-10 flex flex-wrap gap-4">
-  
-    href="tel:+919115104010"
-    data-magnetic
-    className="magnetic inline-flex min-h-[60px] items-center rounded-full bg-brass px-10 text-ink"
-  >
-    <span className="label-mono">Call the store</span>
-  </a>
-  
-    href="https://wa.me/919115104010"
-    target="_blank"
-    rel="noopener noreferrer"
-    data-magnetic
-    className="magnetic inline-flex min-h-[60px] items-center rounded-full border border-ivory/30 px-10 text-ivory"
-  >
-    <span className="label-mono">WhatsApp us</span>
-  </a>
-  
-    href="https://maps.google.com/?q=The+Furnishing+Store+Nakodar+Road+Jalandhar"
-    target="_blank"
-    rel="noopener noreferrer"
-    data-magnetic
-    className="magnetic inline-flex min-h-[60px] items-center rounded-full border border-ivory/30 px-10 text-ivory"
-  >
-    <span className="label-mono">Get directions</span>
-  </a>
-</div>
+<footer className="relative z-10 bg-walnut px-5 py-24 sm:px-10">
+  <div className="reveal">
+    <h2 className="max-w-[14ch] text-[clamp(2.5rem,10vw,5.5rem)]">
+      Let&apos;s finish <span className="font-light italic text-brass">the room.</span>
+    </h2>
+    <div className="mt-10 flex flex-wrap gap-4">
+      
+        href="tel:+919115104010"
+        data-magnetic
+        className="magnetic inline-flex min-h-[60px] items-center rounded-full bg-brass px-10 text-ink"
+      >
+        <span className="label-mono">Call the store</span>
+      </a>
+      
+        href="https://wa.me/919115104010"
+        target="_blank"
+        rel="noopener noreferrer"
+        data-magnetic
+        className="magnetic inline-flex min-h-[60px] items-center rounded-full border border-ivory/30 px-10 text-ivory"
+      >
+        <span className="label-mono">WhatsApp us</span>
+      </a>
+      
+        href="https://maps.google.com/?q=The+Furnishing+Store+Nakodar+Road+Jalandhar"
+        target="_blank"
+        rel="noopener noreferrer"
+        data-magnetic
+        className="magnetic inline-flex min-h-[60px] items-center rounded-full border border-ivory/30 px-10 text-ivory"
+      >
+        <span className="label-mono">Get directions</span>
+      </a>
+    </div>
 
-          <address className="mt-14 grid gap-8 not-italic sm:grid-cols-2">
-            <div>
-              <p className="label-mono text-ivory/50">Address</p>
-              <p className="mt-3 max-w-[28ch] text-ivory/85">
-                Nakodar Road, opp. Nari Niketan, Jalandhar, Punjab 144001
-              </p>
-            </div>
-            <div>
-              <p className="label-mono text-ivory/50">Phone</p>
-              <a
-                href="tel:+919115104010"
-                className="mt-3 inline-flex min-h-[44px] items-center text-ivory/85 underline decoration-brass/60 underline-offset-4"
-              >
-                +91 91151 04010
-              </a>
-            </div>
-          </address>
+    <address className="mt-14 grid gap-8 not-italic sm:grid-cols-2">
+      <div>
+        <p className="label-mono text-ivory/50">Address</p>
+        <p className="mt-3 max-w-[28ch] text-ivory/85">
+          Nakodar Road, opp. Nari Niketan, Jalandhar, Punjab 144001
+        </p>
+      </div>
+      <div>
+        <p className="label-mono text-ivory/50">Phone</p>
+        
+          href="tel:+919115104010"
+          className="mt-3 inline-flex min-h-[44px] items-center text-ivory/85 underline decoration-brass/60 underline-offset-4"
+        >
+          +91 91151 04010
+        </a>
+      </div>
+    </address>
 
-          <p className="label-mono mt-16 text-ivory/35">
-            The Furnishing Store (Singla&apos;s) · Jalandhar, Punjab
-          </p>
-        </div>
-      </footer>
+    <p className="label-mono mt-16 text-ivory/35">
+      The Furnishing Store (Singla&apos;s) · Jalandhar, Punjab
+    </p>
+  </div>
+</footer>
     </main>
   );
 }
