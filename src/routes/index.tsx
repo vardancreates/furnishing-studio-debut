@@ -285,7 +285,7 @@ function Index() {
         <span className="label-mono">WhatsApp us</span>
       </a>
       <a
-        href="https://maps.google.com/?q=The+Furnishing+Store+Nakodar+Road+Jalandhar"
+        href="https://maps.app.goo.gl/ZmfZxkmATmhA3w8q7"
         target="_blank"
         rel="noopener noreferrer"
         data-magnetic
