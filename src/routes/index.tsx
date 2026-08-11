@@ -73,7 +73,9 @@ const PANELS = [
   },
 ] as const;
 
-const SWATCHES = [
+type Swatch = { name: string; tint: string; fg: string; note: string };
+
+const SWATCHES: Swatch[] = [
   { name: "Walnut", tint: "#1E1810", fg: "#F6EFE4", note: "Evening living rooms, heavy drapes." },
   { name: "Ivory", tint: "#F6EFE4", fg: "#211A12", note: "Sheers, north light, small rooms." },
   { name: "Sage", tint: "#8A9A7B", fg: "#211A12", note: "Bedrooms that need to stay calm." },
@@ -110,7 +112,7 @@ function Marquee({
 
 function Index() {
   useReveal();
-  const [swatch, setSwatch] = useState(SWATCHES[2]);
+  const [swatch, setSwatch] = useState<Swatch>(SWATCHES[2]!);
 
   return (
     <main className="grain bg-walnut text-ivory">
