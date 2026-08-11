@@ -268,9 +268,10 @@ function Index() {
             Let&apos;s finish <span className="font-light italic text-brass">the room.</span>
           </h2>
           <div className="mt-10 flex flex-wrap gap-4">
-            href="tel:+919115104010"
-            data-magnetic
-            className="magnetic inline-flex min-h-[60px] items-center rounded-full bg-brass px-10 text-ink"
+  
+    href="tel:+919115104010"
+    data-magnetic
+    className="magnetic inline-flex min-h-[60px] items-center rounded-full bg-brass px-10 text-ink"
   >
     <span className="label-mono">Call the store</span>
   </a>
