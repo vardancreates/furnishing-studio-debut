@@ -121,7 +121,7 @@ function Index() {
       {/* HERO */}
       <section className="relative flex min-h-[100svh] flex-col justify-between overflow-hidden px-5 pt-7 sm:px-10">
         <header className="grid grid-cols-[minmax(0,1fr)_auto] items-center gap-4">
-          <p className="min-w-0 truncate font-sans text-sm font-medium uppercase tracking-[0.15em] text-ivory/80 sm:text-base">
+          <p className="min-w-0 truncate font-display text-[clamp(1.25rem,5.5vw,2rem)] font-semibold uppercase tracking-[0.08em] text-ivory sm:tracking-[0.12em]">
             The Furnishing Store · Singla&apos;s
           </p>
           <p className="label-mono shrink-0 text-ivory/50">Jalandhar</p>
@@ -292,6 +292,15 @@ function Index() {
         className="magnetic inline-flex min-h-[60px] items-center rounded-full border border-ivory/30 px-10 text-ivory"
       >
         <span className="label-mono">Get directions</span>
+      </a>
+      <a
+        href="https://instagram.com/singlas.furnishing"
+        target="_blank"
+        rel="noopener noreferrer"
+        data-magnetic
+        className="magnetic inline-flex min-h-[60px] items-center rounded-full border border-ivory/30 px-10 text-ivory"
+      >
+        <span className="label-mono">Instagram</span>
       </a>
     </div>
 
