@@ -308,7 +308,7 @@ function Index() {
       <div>
         <p className="label-mono text-ivory/50">Address</p>
         <p className="mt-3 max-w-[28ch] text-ivory/85">
-          Nakodar Road, opp. Nari Niketan, Jalandhar, Punjab 144001
+          Nakodar Rd, Opp. Ambekdkar Park, Dayal Nagar, Model House,Jalandhar, Punjab 144001
         </p>
       </div>
       <div>
